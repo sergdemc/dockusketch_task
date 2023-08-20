@@ -2,7 +2,8 @@
 
 This repository contains an example FastAPI application that demonstrates basic usage of FastAPI features, including request logging, response logging, error handling, and routing.
 
----
+[![Maintainability](https://api.codeclimate.com/v1/badges/b07d162221bb5e22a5bf/maintainability)](https://codeclimate.com/github/sergdemc/dockusketch_task/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b07d162221bb5e22a5bf/test_coverage)](https://codeclimate.com/github/sergdemc/dockusketch_task/test_coverage)
 
 ## Installation
 
@@ -35,8 +36,6 @@ Then you have to install all necessary dependencies:
 >> make install
 ```
 
----
-
 ## Usage
 
 Start the gunicorn Django server by running:
@@ -45,7 +44,6 @@ make start
 ```
 By default, the server will be available at http://0.0.0.0:8000. 
 
----
 
 ## Features
 ### Logging
