@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dockusketch-task"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Demchenko <hb13718@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dockusketch_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.101.1"
+uvicorn = {extras = ["standart"], version = "^0.23.2"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+httpx = "^0.24.1"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

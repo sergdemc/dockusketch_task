@@ -1,0 +1,7 @@
+.idea
+.venv
+.coverage
+coverage.xml
+app.log
+.pytest_cache
+__pycache__
