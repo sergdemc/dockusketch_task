@@ -47,7 +47,7 @@ By default, the server will be available at http://0.0.0.0:8000.
 
 ## Features
 ### Logging
-The application utilizes custom logging using the custom_logging module. Logs are recorded for incoming requests, responses, and errors. Logs are configured to provide insightful information about the application's behavior.
+The application utilizes custom logging using the custom_logging module. Logs are recorded for incoming requests, responses, and errors. Logs are configured to provide insightful information about the application's behavior. The logs are written to the console and to a file.
 
 ### Endpoints
 The following endpoints are available:
@@ -65,9 +65,6 @@ The application uses middleware functions to log incoming requests and outgoing 
 
 ### Error Handling
 Errors occurring during request processing are captured and logged, providing insights into any issues that may arise during application execution.
-
-### Contributing
-Contributions to this test app are welcome! Feel free to submit pull requests to add new features, improve documentation, or fix any issues.
 
 ### Linter
 The application uses the Flake8 linter to ensure code quality and consistency. To run the linter, run the following command from the root directory:
@@ -89,3 +86,6 @@ To run the test suite and generate a code coverage report, run the following com
 ```bash
 >> make coverage
 ```
+
+### Contributing
+Contributions to this test app are welcome! Feel free to submit pull requests to add new features, improve documentation, or fix any issues.
