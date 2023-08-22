@@ -27,7 +27,7 @@ The project uses the Poetry dependency manager. To install Poetry use its [offic
 To use the application, you need to clone the repository to your computer. This is done using the `git clone` command. Clone the project:
 
 ```bash
->> git clone https://github.com/sergdemc/python-project-52.git && cd python-project-52
+>> git clone https://github.com/sergdemc/dockusketch_task.git && cd dockusketch_task
 ```
 
 Then you have to install all necessary dependencies:
